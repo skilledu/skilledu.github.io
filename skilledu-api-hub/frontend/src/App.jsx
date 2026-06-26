@@ -3,7 +3,7 @@ import axios from 'axios';
 import DynamicRenderer from './components/DynamicRenderer';
 import CodeGenerator from './components/CodeGenerator';
 
-const BACKEND_URL = window.location.hostname === 'localhost' ? 'http://localhost:7866https://skilledu-github-io.onrender.com' : window.location.origin;
+const BACKEND_URL = window.location.hostname === 'localhost' ? 'http://localhost:7866' : 'https://skilledu-github-io.onrender.com';
 
 function App() {
   const [apis, setApis] = useState([]);
