@@ -1,0 +1,75 @@
+
+/* Dynamic Renderer Styles */
+.dynamic-object {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dynamic-kv-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 0;
+}
+
+.dynamic-kv-row:last-child {
+  border-bottom: none;
+}
+
+.dynamic-key {
+  font-weight: bold;
+  color: #ffc224;
+  min-width: 150px;
+}
+
+.dynamic-value {
+  color: #e2e8f0;
+  word-break: break-word;
+}
+
+.dynamic-image, .dynamic-thumb {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-top: 10px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.dynamic-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.dynamic-table th {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffc224;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap;
+}
+
+.dynamic-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  word-break: normal;
+}
+
+.dynamic-table tr:hover td {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dynamic-list {
+  list-style: disc inside;
+  color: #e2e8f0;
+}

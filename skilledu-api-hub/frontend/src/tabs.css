@@ -1,0 +1,35 @@
+/* Tab Styles */
+.tabs {
+  display: flex;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 5px;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--text-light);
+  border-radius: 6px;
+  transition: all 0.2s;
+  flex: 1 1 auto;
+  text-align: center;
+  min-width: 80px;
+}
+
+.tab-btn:hover {
+  color: var(--primary);
+  background: rgba(255,255,255,0.5);
+}
+
+.tab-btn.active {
+  background: #282c34;
+  color: #ffc224;
+}
